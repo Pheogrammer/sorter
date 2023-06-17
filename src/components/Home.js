@@ -33,7 +33,6 @@ const Home = () => {
         const ouData = {};
         const dxData = {};
 
-        // Group data by ou and dx
         tableData.rows.forEach((row) => {
             const period = row[2];
             const ou = row[1];
