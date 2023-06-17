@@ -58,7 +58,7 @@ const Home = () => {
                 <thead>
                     <tr>
                         <th rowSpan={2}></th>
-                        {Object.entries(ouData).map(([ou, dxArray]) => (
+                        {Object.entries(ouData).map(([ou]) => (
                             <th colSpan='5' key={ou}>
                                 {ou}
                             </th>

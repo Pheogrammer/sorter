@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import data from './json-data.json';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 function App() {
