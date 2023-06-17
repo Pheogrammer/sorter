@@ -54,7 +54,8 @@ const Home = () => {
         const periods = Array.from(new Set(tableData.rows.map((row) => row[2])));
 
         return (
-            <table className='table  table-bordered table-responsive'>
+            <div className="table-responsive">
+            <table className='table  table-bordered'>
                 <thead>
                     <tr>
                         <th></th>
@@ -97,6 +98,7 @@ const Home = () => {
                     ))}
                 </tbody>
             </table>
+            </div>
         );
     };
 
