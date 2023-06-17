@@ -78,7 +78,7 @@ const Home = () => {
                 <tbody>
                     {periods.map((period, rowIndex) => (
                         <tr key={rowIndex} className='text-right justify-content-right'>
-                            <td>{period}</td>
+                            <td style={{ whiteSpace: 'nowrap', textAlign: 'left' }}>{period}</td>
                             {Object.entries(ouData).map(([ou, dxArray]) => (
                                 dxArray.map((data) => (
                                     data.period === period && (
