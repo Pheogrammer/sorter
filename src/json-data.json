@@ -35,23 +35,57 @@
   ],
   "metaData": {
     "items": {
-      "202212": { "name": "December 2022" },
-      "202301": { "name": "January 2023" },
-      "202302": { "name": "February 2023" },
-      "202303": { "name": "March 2023" },
-      "202304": { "name": "April 2023" },
-      "202305": { "name": "May 2023" },
-      "tsMR4m66ili": { "name": "HIV - PLHIV new on ART" },
-      "aLH7eJpIxvn": { "name": "HIV - PLHIV currently on ART" },
-      "ou": { "name": "Organisation unit" },
-      "bD67D0kVEJQ": { "name": "HIV - HIV test positivity rate (%)" },
-      "JSUnuftClqK": { "name": "HIV - HIV tests performed" },
-      "zj9LoeErgkP": { "name": "Animal Region" },
-      "LAST_6_MONTHS": { "name": "Last 6 months" },
-      "dx": { "name": "Data" },
-      "pe": { "name": "Period" },
-      "LV138qS9eCD": { "name": "HIV - HIV tests positive" },
-      "gwAcS6gaz7D": { "name": "Food Region" }
+      "202212": {
+        "name": "December 2022"
+      },
+      "202301": {
+        "name": "January 2023"
+      },
+      "202302": {
+        "name": "February 2023"
+      },
+      "202303": {
+        "name": "March 2023"
+      },
+      "202304": {
+        "name": "April 2023"
+      },
+      "202305": {
+        "name": "May 2023"
+      },
+      "tsMR4m66ili": {
+        "name": "HIV - PLHIV new on ART"
+      },
+      "aLH7eJpIxvn": {
+        "name": "HIV - PLHIV currently on ART"
+      },
+      "ou": {
+        "name": "Organisation unit"
+      },
+      "bD67D0kVEJQ": {
+        "name": "HIV - HIV test positivity rate (%)"
+      },
+      "JSUnuftClqK": {
+        "name": "HIV - HIV tests performed"
+      },
+      "zj9LoeErgkP": {
+        "name": "Animal Region"
+      },
+      "LAST_6_MONTHS": {
+        "name": "Last 6 months"
+      },
+      "dx": {
+        "name": "Data"
+      },
+      "pe": {
+        "name": "Period"
+      },
+      "LV138qS9eCD": {
+        "name": "HIV - HIV tests positive"
+      },
+      "gwAcS6gaz7D": {
+        "name": "Food Region"
+      }
     },
     "dimensions": {
       "dx": [
@@ -83,7 +117,7 @@
     ["LV138qS9eCD", "zj9LoeErgkP", "202302", "14297.0"],
     ["LV138qS9eCD", "zj9LoeErgkP", "202303", "15365.0"],
     ["LV138qS9eCD", "zj9LoeErgkP", "202304", "14887.0"],
-    ["LV138qS9eCD", "zj9LoeErgkP", "202305", "14804.0", "14804.0"],
+    ["LV138qS9eCD", "zj9LoeErgkP", "202305", "14804.0"],
     ["LV138qS9eCD", "gwAcS6gaz7D", "202212", "5472.0"],
     ["LV138qS9eCD", "gwAcS6gaz7D", "202301", "5541.0"],
     ["LV138qS9eCD", "gwAcS6gaz7D", "202302", "5542.0"],
