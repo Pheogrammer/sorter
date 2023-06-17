@@ -58,7 +58,7 @@ const Home = () => {
             <table className='table  table-bordered'>
                 <thead>
                     <tr>
-                        <th></th>
+                        <th rowSpan={2}></th>
                         {Object.entries(ouData).map(([ou, dxArray]) => (
                             <th colSpan='5' key={ou}>
                                 {ou}
@@ -66,7 +66,6 @@ const Home = () => {
                         ))}
                     </tr>
                     <tr>
-                        <th>Period</th>
                         {Object.entries(ouData).map(([ou, dxArray]) => (
                             dxArray.map((data) => (
                                 data.period === periods[0] && (
